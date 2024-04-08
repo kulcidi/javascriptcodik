@@ -6,7 +6,7 @@ let cub = 0;
 for (let i = 0; i < numbers.length; i++) {
   cub += numbers[i] ** 3;
 }
-console.log(cub);
+console.log(cub); 
 
 let cub2 = 0;
 

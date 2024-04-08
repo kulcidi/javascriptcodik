@@ -7,11 +7,9 @@ function askClientToGiveEstimation() {
   }
 }
 
-
 for (let i = 0; i < 5; i++) {
   askClientToGiveEstimation();
 }
-
 
 const goodEstimations = clientsEstimations.filter(
   (estimation) => estimation > 5
