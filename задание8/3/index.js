@@ -21,3 +21,5 @@ function handleObject(obj, key, action) {
     return obj;
   }
 }
+
+console.log(handleObject( 1: 'add'));
